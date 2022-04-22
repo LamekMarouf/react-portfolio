@@ -141,24 +141,6 @@ body{
 }
 
 /* About Section */
-.border-box-about {
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--mainText);
-    margin: auto;
-}
-
-.white-border-about {
-    background-color: var(--mainBackground);
-    width: 98%;
-    height: 96%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .about-me-section {
     display: grid;
     grid-template-rows: 1fr 2fr;
@@ -166,62 +148,26 @@ body{
     justify-content: center;
 }
 
-#photo-about {
-    width: 400px;
-    transition: .2s;
-}
-
-#photo-about:hover {
-    width: 450px;
-    transition: .2s;
-}
-
-
-.white-border-about #avatar-half {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #about-me-title {
     color: var(--secondaryText);
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 4px 2px var(--mainText);  
+    text-shadow: 4px 2px var(--mainText);
+    margin-top: 60px;
 }
 
 #about-me-content {
-    color: var(--mainText);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
-#resume {
-    color: var(--mainBackground);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--mainText);
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    border-radius: 30px;
-    font-weight: 700;
-    transition: .5s;
-
-}
-
-#resume:hover {
-    cursor: pointer;
-    background-color: rgb(36, 36, 36);
+#about-me-content p {
     color: var(--mainText);
-    border: var(--mainText) solid 1px;
-    transition: .2s;
+    width: 80%;
 }
 
 
