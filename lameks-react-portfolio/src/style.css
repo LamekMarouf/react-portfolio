@@ -20,19 +20,19 @@ html a {
 
 body{
     background-color: var(--mainBackground);
-    height: 100%;
 }
 
 /* Navigation Bar */
 .navbar {
     display: flex;
-    padding: 0 50px;
-    position: fixed;
-    width: 95%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     background-color: var(--mainBackground);
     top: 0;
     z-index: 10;
-    border-bottom: var(--mainText) solid 1px;
+    border: var(--mainText) solid 1px;
+    border-radius: 5px;
 }
 
 .nav-logo {
@@ -79,48 +79,29 @@ body{
   
 
 /* Introduction */
-.border-box {
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--mainText);
-    margin: auto;
-}
-
-.white-border {
-    background-color: var(--mainBackground);
-    width: 98%;
-    height: 96%;
+.outer-border {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 5%;
 }
 
-.self-portrait-half {
+.introduction-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-paragraph {
+    font-size: 72px;
+    font-weight: 700;
+    padding-left: 15%;
+}
+
+.homepage-image {
     color: var(--mainText);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#self-portrait {
-    width: 300px;
-    transition: .2s;
-}
-
-#self-portrait:hover {
-    width: 340px;
-    transition: .2s;
-}
-
-
-#intro-paragraph {
-    position: absolute;
-    left: 15%;
-    top: 20%;
-    font-size: 72px;
-    font-weight: 700;
 }
 
 .intro {
@@ -160,14 +141,18 @@ body{
 }
 
 #about-me-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--mainText);
+    padding: 0 5%;
+}
+
+
+
+.about-image {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#about-me-content p {
-    color: var(--mainText);
-    width: 80%;
 }
 
 
