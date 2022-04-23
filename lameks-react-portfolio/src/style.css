@@ -157,281 +157,96 @@ body{
 
 
 /* Skills Section */
-.border-box-skills {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--mainText);
-    margin: auto;
-}
-
-.white-border-skills {
-    background-color: var(--mainBackground);
-    width: 98%;
-    height: 96%;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
+.skills-container {
     color: var(--mainText);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.white-border-skills .skills {
+.skills-half {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
+    grid-template-rows: 1fr 3fr;
+    border: solid 1px var(--mainText);
+    border-radius: 5px;
+    padding: 10% 7%;
+    margin-top: 10%;
+
 }
 
 #skills-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
+    font-size: 72px;
     font-weight: 700;
+    color: var(--secondaryText);
+    text-shadow: 4px 2px var(--mainText);
 }
 
-#skills-information {
+#skills-description {
+    padding-top: 10%;
+}
+
+.skills-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.logos-half {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.logos-container {
+    height: 200px;
+    width: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 35px;
-    text-align: center;
-}
-
-#html-logo,
-#css-logo,
-#javascript-logo,
-#nodejs-logo,
-#mysql-logo,
-#handlebars-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* HTML Logo - Skills */
-#html-logo img{
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #a53a1f;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#html-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
-}
-
-/* CSS Logo - Skills */
-#css-logo img {
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #2a7abb;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#css-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
-}
-
-/* JavaScript Logo - Skills */
-#javascript-logo img {
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #d1b900;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#javascript-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
-}
-
-/* NodeJs Logo - Skills */
-#nodejs-logo img {
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #52831d;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#nodejs-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
-}
-
-/* MySql Logo - Skills */
-#mysql-logo img {
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #1b4555;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#mysql-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
-}
-
-/* Handlebars Logo - Skills */
-#handlebars-logo img {
-    width: 50%;
-    height: 50%;
-    border: var(--mainText) solid 2px;
-    border-radius: 60px;
-    padding: 20px;
-    background-color: #824a13;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#handlebars-logo img:hover {
-    background-color: var(--mainText);
-    transition: .3s;
 }
 
 /* Projects Section */
-.border-box-projects {
-    width: 90%;
-    height: 175%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--mainText);
-    margin: auto;
-}
-
-.white-border-projects {
-    background-color: var(--mainBackground);
-    width: 98%;
-    height: 96%;
-    display: grid;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+.projects-container {
     color: var(--mainText);
+    display: grid;
+    grid-template-rows: 1fr 6fr;
 }
 
 #projects-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 700;
+    color: var(--secondaryText);
+    text-shadow: 4px 2px var(--mainText);
 }
 
-.project-row-one, .project-row-two, .project-row-three {
+.projects-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
+    grid-template-rows: repeat(1fr, 3);
 }
 
-figure.effect figcaption {
-    top: auto;
-    bottom: 0;
-    padding: 1em;
-    height: .75em;
-    color: var(--mainBackground);
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
-}
-    
-figure.effect div.description {
-    position: fixed;
-    bottom: 170%;
-    left: 7%;
-    padding: 2em;
-    color: var(--mainText);
-    text-transform: none;
-    font-size: 90%;
-    opacity: 0;
-    -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s;
-    width: 70%;
-    text-align: center;
-  }
-  
-figure.effect:hover div.description {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+.project-line-one, .project-line-two, .project-line-three {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: var(--mainText);
-    width: 450px;
-    height: 150px;
-  }
-  
-figure.effect:hover figcaption {
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-  }
-
-figcaption .description p {
-    margin-right: 20px;
 }
-  
-#screenshot img {
-    width: 570px;
-    height: 270px;
+
+#project-one img, 
+#project-two img,
+#project-three img,
+#project-four img,
+#project-five img,
+#project-six img{
+    height: 320px;
+    width: 580px;
     border-radius: 10px;
-}
-
-#screenshot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.description-buttons {
-    background-color: var(--mainText);
-    color: var(--mainBackground);
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 14px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.description-buttons:hover {
-    background-color: rgb(36, 36, 36);
-    color: var(--mainText);
-    transition: .2s;
-}
-
-
-.description a {
-    text-decoration: none;
+    margin: 10% 0;
 }
 
 /* Socials Section */
