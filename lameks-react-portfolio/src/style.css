@@ -249,6 +249,10 @@ body{
     margin: 10% 0;
 }
 
+#project-one img:hover {
+    cursor: pointer;
+}
+
 /* Socials Section */
 .border-box-socials {
     width: 90%;
