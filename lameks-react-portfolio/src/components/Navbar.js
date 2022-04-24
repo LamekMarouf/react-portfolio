@@ -11,7 +11,7 @@ function Navbar() {
             <ul><a href="#about-link">About</a></ul>
             <ul><a href="#skills-link">Skills</a></ul>
             <ul><a href="#projects-link">Projects</a></ul>
-            <ul><a href="#socials-link">Socials</a></ul>
+            <ul><a href="#contact-link">Contact</a></ul>
         </div>
     </section>
 
