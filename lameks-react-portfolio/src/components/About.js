@@ -1,4 +1,5 @@
 import React from "react";
+import hackerAvatar from "../assets/images/hackerAvatar.png";
 
 function About() {
   return (
@@ -10,7 +11,9 @@ function About() {
           </div>
 
           <div id="about-me-content">
-            <h1 className="about-image">Insert Image</h1>
+            <h1 className="about-image">
+              <img src={hackerAvatar} alt="Hacker Avatar" id="hacker-avatar" />
+            </h1>
 
             <div>
               <p>

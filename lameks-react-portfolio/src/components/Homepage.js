@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/images/hackerAvatar.png";
+import codingAvatar from "../assets/images/codingAvatar.png";
 
 function Homepage() {
   return (
@@ -19,7 +19,7 @@ function Homepage() {
       </section>
 
       <section className="homepage-image">
-        <img src={avatar} alt="avatar" id="hacker-avatar"/>
+        <img src={codingAvatar} alt="Coding Avatar" id="coding-avatar" />
       </section>
     </section>
   );
