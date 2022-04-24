@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
@@ -11,15 +11,15 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    <Navbar />
-    {/* <Homepage /> */}
-    {/* <About /> */}
-    <Skills />
-    {/* {<Projects />} */}
-    {/* <Contact /> */}
-    {<Footer />}
+      <Navbar />
+      <Homepage />
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* {<Projects />} */}
+      {/* <Contact /> */}
+      {<Footer />}
     </>
-  )
+  );
 }
 
 export default App;
