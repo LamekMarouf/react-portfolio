@@ -4,9 +4,21 @@ function Footer() {
   return (
     <>
       <section className="footer-container">
-        <div className="github">GITHUB</div>
+        <a
+          href="https://github.com/LamekMarouf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="github">GITHUB</div>
+        </a>
 
-        <div className="linkedin">LINKEDIN</div>
+        <a
+          href="https://www.linkedin.com/in/lamek-marouf/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="linkedin">LINKEDIN</div>
+        </a>
 
         <div className="resume">RESUME</div>
       </section>

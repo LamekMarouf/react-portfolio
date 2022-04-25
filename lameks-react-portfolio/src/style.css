@@ -453,6 +453,7 @@ body{
     border-radius: 30px;
     font-weight: 700;
     transition: .3s ease;
+    color: var(--mainText);
 }
 
 .github:hover, .linkedin:hover, .resume:hover {
