@@ -16,24 +16,31 @@ function Projects() {
 
         <div className="projects-section">
           <div id="project-one" className="project-screenshots">
-            <img src={ark} alt="test" />
+            <img src={ark} alt="ARK Screenshot" />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">ARK</div>
                 This project's purpose is to allows users who need help to post
                 their task and also view and accept tasks posted by other users.
                 To understand this project further, please visit the repo and
-                read the description. Fun Fact: The name ARK stands for Act of Random Kindness.
+                read the description. Fun Fact: The name ARK stands for Act of
+                Random Kindness.
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/jcarait/act-of-random-kindness"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
 
           <div id="project-two" className="project-screenshots">
-            <img src={bananaFinder} alt="test" />
+            <img src={bananaFinder} alt="Banana Finder Screenshot" />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">Banana Finder</div>
@@ -43,14 +50,20 @@ function Projects() {
                 project further, please visit the repo and read the description.
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/fubzee/banana-finder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
 
           <div id="project-three" className="project-screenshots">
-            <img src={textEditor} alt="test" />
+            <img src={textEditor} alt="Text Editor Screenshot" />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">J.A.T.E</div>
@@ -58,14 +71,23 @@ function Projects() {
                 thanks.
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/LamekMarouf/text-editor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
 
           <div id="project-four" className="project-screenshots">
-            <img src={teamProfileGenerator} alt="test" />
+            <img
+              src={teamProfileGenerator}
+              alt="Team Profile Generator Screenshot"
+            />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">Team Profile Generator</div>
@@ -78,14 +100,20 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/LamekMarouf/team-profile-generator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
 
           <div id="project-five" className="project-screenshots">
-            <img src={weatherApp} alt="test" />
+            <img src={weatherApp} alt="Weather Dashboard Screenshot" />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">Weather Dashboard</div>
@@ -94,14 +122,20 @@ function Projects() {
                 please visit the repo and read the description.
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/LamekMarouf/weather-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
 
           <div id="project-six" className="project-screenshots">
-            <img src={workDayScheduler} alt="test" />
+            <img src={workDayScheduler} alt="Work Day Scheduler Screenshot" />
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">Work Day Scheduler</div>
@@ -110,8 +144,14 @@ function Projects() {
                 project further, please visit the repo and read the description.
               </div>
               <div>
-                <button className="popup-buttons">GITHUB</button>
-                <button className="popup-buttons">REPO</button>
+                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://github.com/LamekMarouf/work-day-scheduler"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">REPO</button>
+                </a>
               </div>
             </div>
           </div>
