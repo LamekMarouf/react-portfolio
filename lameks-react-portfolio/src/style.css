@@ -217,6 +217,10 @@ body{
     justify-content: center;
 }
 
+.skill-logos {
+    height: 150px;
+}
+
 /* Projects Section */
 .projects-container {
     color: var(--mainText);

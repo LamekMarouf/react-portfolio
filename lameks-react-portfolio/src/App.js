@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Homepage />
+      {/* <Homepage /> */}
       {/* <About /> */}
-      {/* <Skills /> */}
+      <Skills />
       {/* {<Projects />} */}
       {/* <Contact /> */}
       {<Footer />}
