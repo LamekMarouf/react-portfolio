@@ -1,5 +1,10 @@
 import React from "react";
-import testLogo from "../assets/images/white-background.jpg";
+import bananaFinder from "../assets/images/bananaFinderScreenshot.jpg";
+import ark from "../assets/images/arkScreenshot.jpg";
+import weatherApp from "../assets/images/weatherApp.jpg";
+import textEditor from "../assets/images/textEditor.png";
+import teamProfileGenerator from "../assets/images/teamProfileGeneratorScreenshot.jpg";
+import workDayScheduler from "../assets/images/workDayScheduler.jpg";
 
 function Projects() {
   return (
@@ -10,30 +15,104 @@ function Projects() {
         </div>
 
         <div className="projects-section">
-          <div className="project-line-one">
-            <div id="project-one">
-              <img src={testLogo} alt="test" />
-            </div>
-            <div id="project-two">
-              <img src={testLogo} alt="test" />
+          <div id="project-one" className="project-screenshots">
+            <img src={ark} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">ARK</div>
+                This project's purpose is to allows users who need help to post
+                their task and also view and accept tasks posted by other users.
+                To understand this project further, please visit the repo and
+                read the description. Fun Fact: The name ARK stands for Act of Random Kindness.
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
             </div>
           </div>
 
-          <div className="project-line-two">
-            <div id="project-three">
-              <img src={testLogo} alt="test" />
-            </div>
-            <div id="project-four">
-              <img src={testLogo} alt="test" />
+          <div id="project-two" className="project-screenshots">
+            <img src={bananaFinder} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">Banana Finder</div>
+                This project's purpose is to help users to identify the song and
+                then adds value to the users experience by giving the more
+                information about the artist and track. To understand this
+                project further, please visit the repo and read the description.
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
             </div>
           </div>
 
-          <div className="project-line-three">
-            <div id="project-five">
-              <img src={testLogo} alt="test" />
+          <div id="project-three" className="project-screenshots">
+            <img src={textEditor} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">J.A.T.E</div>
+                This is just some test text. Hello, how are you? I am good
+                thanks.
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
             </div>
-            <div id="project-six">
-              <img src={testLogo} alt="test" />
+          </div>
+
+          <div id="project-four" className="project-screenshots">
+            <img src={teamProfileGenerator} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">Team Profile Generator</div>
+                <div className="project-text-description">
+                  This project's purpose is to create a team of managers,
+                  engineers and interns. It is created by using the NodeJS. This
+                  does not include a deployed app as it is ran within the
+                  integrated terminal. To understand this project further,
+                  please visit the repo and read the description.
+                </div>
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="project-five" className="project-screenshots">
+            <img src={weatherApp} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">Weather Dashboard</div>
+                This project's purpose is to display the current weather for a
+                city you want to know. To understand this project further,
+                please visit the repo and read the description.
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="project-six" className="project-screenshots">
+            <img src={workDayScheduler} alt="test" />
+            <div className="project-popup">
+              <div className="popup-text">
+                <div className="project-text-title">Work Day Scheduler</div>
+                This project's purpose is for users to be able to record and set
+                timestamps for certain hours of the workday. To understand this
+                project further, please visit the repo and read the description.
+              </div>
+              <div>
+                <button className="popup-buttons">GITHUB</button>
+                <button className="popup-buttons">REPO</button>
+              </div>
             </div>
           </div>
         </div>
