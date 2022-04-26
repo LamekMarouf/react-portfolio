@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer"
+import Footer from "./Footer";
 import bananaFinder from "../assets/images/bananaFinderScreenshot.jpg";
 import ark from "../assets/images/arkScreenshot.jpg";
 import weatherApp from "../assets/images/weatherApp.jpg";
@@ -8,11 +8,10 @@ import textEditor from "../assets/images/textEditor.png";
 import teamProfileGenerator from "../assets/images/teamProfileGeneratorScreenshot.jpg";
 import workDayScheduler from "../assets/images/workDayScheduler.jpg";
 
-
 function Projects() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <section className="projects-container">
         <div id="projects-title">
           <div>My Projects</div>
@@ -31,7 +30,13 @@ function Projects() {
                 Random Kindness.
               </div>
               <div>
-                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://act-of-random-kindness.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">DEPLOYED</button>
+                </a>
                 <a
                   href="https://github.com/jcarait/act-of-random-kindness"
                   target="_blank"
@@ -54,7 +59,13 @@ function Projects() {
                 project further, please visit the repo and read the description.
               </div>
               <div>
-                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://fubzee.github.io/banana-finder/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">DEPLOYED</button>
+                </a>
                 <a
                   href="https://github.com/fubzee/banana-finder"
                   target="_blank"
@@ -71,11 +82,18 @@ function Projects() {
             <div className="project-popup">
               <div className="popup-text">
                 <div className="project-text-title">J.A.T.E</div>
-                This is just some test text. Hello, how are you? I am good
-                thanks.
+                  This project's purpose is to do what just about every other text editor, considering the name (Just 
+                  Another Text Editor). It is a text editor that can be used to write code and do everything another a 
+                  text editor should be able to do.
               </div>
               <div>
-                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://lameks-text-editor.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">DEPLOYED</button>
+                </a>
                 <a
                   href="https://github.com/LamekMarouf/text-editor"
                   target="_blank"
@@ -104,7 +122,6 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <button className="popup-buttons">DEPLOYED</button>
                 <a
                   href="https://github.com/LamekMarouf/team-profile-generator"
                   target="_blank"
@@ -126,7 +143,13 @@ function Projects() {
                 please visit the repo and read the description.
               </div>
               <div>
-                <button className="popup-buttons">DEPLOYED</button>
+                <a
+                  href="https://lamekmarouf.github.io/weather-app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="popup-buttons">DEPLOYED</button>
+                </a>
                 <a
                   href="https://github.com/LamekMarouf/weather-app"
                   target="_blank"
@@ -148,7 +171,11 @@ function Projects() {
                 project further, please visit the repo and read the description.
               </div>
               <div>
+                <a href="https://lamekmarouf.github.io/work-day-scheduler/"
+                target="_blank"
+                rel="noreferrer">
                 <button className="popup-buttons">DEPLOYED</button>
+                </a>
                 <a
                   href="https://github.com/LamekMarouf/work-day-scheduler"
                   target="_blank"
