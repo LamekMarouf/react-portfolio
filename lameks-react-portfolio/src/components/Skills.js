@@ -8,10 +8,12 @@ import reactLogo from "../assets/images/reactLogo.png"
 import graphqlLogo from "../assets/images/graphqlLogo.png"
 import mongodbLogo from "../assets/images/mongodbLogo.png"
 import bootstrapLogo from "../assets/images/bootstrapLogo.png"
+import Navbar from "./Navbar";
 
 function Skills() {
   return (
     <>
+    <Navbar />
       <section className="skills-container">
         <div className="skills-half">
           <div id="skills-title">

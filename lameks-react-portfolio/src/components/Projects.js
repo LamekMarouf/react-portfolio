@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import bananaFinder from "../assets/images/bananaFinderScreenshot.jpg";
 import ark from "../assets/images/arkScreenshot.jpg";
 import weatherApp from "../assets/images/weatherApp.jpg";
@@ -6,9 +7,11 @@ import textEditor from "../assets/images/textEditor.png";
 import teamProfileGenerator from "../assets/images/teamProfileGeneratorScreenshot.jpg";
 import workDayScheduler from "../assets/images/workDayScheduler.jpg";
 
+
 function Projects() {
   return (
     <>
+    <Navbar />
       <section className="projects-container">
         <div id="projects-title">
           <div>My Projects</div>

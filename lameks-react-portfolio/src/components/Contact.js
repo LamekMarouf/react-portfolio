@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Navbar from "./Navbar";
 
 function Contact() {
   const initialValues = { fullname: "", email: "", message: "" };
@@ -42,6 +43,7 @@ function Contact() {
 
   return (
     <>
+      <Navbar />
       <section className="contact-container">
         <form className="contact-form" onSubmit={handleSubmit}>
           <div id="contact-form-title">Contact Me</div>

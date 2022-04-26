@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 import hackerAvatar from "../assets/images/hackerAvatar.png";
 
 function About() {
   return (
+    <>
+    <Navbar />
     <section id="about-link">
       <div>
         <div className="about-me-section">
@@ -39,6 +42,7 @@ function About() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

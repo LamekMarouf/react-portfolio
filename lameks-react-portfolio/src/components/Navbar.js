@@ -1,30 +1,32 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <section className="navbar">
       <div className="nav-logo">
         <ol>
-          <a href="#home-link">Lamek Marouf</a>
+          <a href="#homepage">Lamek Marouf</a>
         </ol>
       </div>
       <div className="nav-words">
         <ul>
-          <a href="#home-link">Home</a>
+          <Link to="/">Home</Link>
         </ul>
         <ul>
-          <a href="#about-link">About</a>
+          <Link to="/about">About</Link>
         </ul>
         <ul>
-          <a href="#skills-link">Skills</a>
+          <Link to="/skills">Skills</Link>
         </ul>
         <ul>
-          <a href="#projects-link">Projects</a>
+          <Link to="/projects">Projects</Link>
         </ul>
         <ul>
-          <a href="#contact-link">Contact</a>
+          <Link to="/contact">Contact</Link>
         </ul>
       </div>
+      <Outlet />
     </section>
   );
 }

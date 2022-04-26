@@ -1,8 +1,11 @@
 import React from "react";
 import codingAvatar from "../assets/images/codingAvatar.png";
+import Navbar from "./Navbar";
 
 function Homepage() {
-  return (
+  return ( 
+    <>
+    <Navbar />
     <section className="outer-border">
       <section className="introduction-half">
         <div className="intro-paragraph">
@@ -22,6 +25,7 @@ function Homepage() {
         <img src={codingAvatar} alt="Coding Avatar" id="coding-avatar" />
       </section>
     </section>
+    </>
   );
 }
 
