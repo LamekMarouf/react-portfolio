@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer"
 import bananaFinder from "../assets/images/bananaFinderScreenshot.jpg";
 import ark from "../assets/images/arkScreenshot.jpg";
 import weatherApp from "../assets/images/weatherApp.jpg";
@@ -160,6 +161,7 @@ function Projects() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

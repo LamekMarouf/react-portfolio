@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer"
 
 function Contact() {
   const initialValues = { fullname: "", email: "", message: "" };
@@ -94,6 +95,7 @@ function Contact() {
           </div>
         </form>
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer"
 import htmlLogo from "../assets/images/htmlLogo.png"
 import cssLogo from "../assets/images/cssLogo.png"
 import javascriptLogo from "../assets/images/javascriptLogo.png"
@@ -8,7 +10,6 @@ import reactLogo from "../assets/images/reactLogo.png"
 import graphqlLogo from "../assets/images/graphqlLogo.png"
 import mongodbLogo from "../assets/images/mongodbLogo.png"
 import bootstrapLogo from "../assets/images/bootstrapLogo.png"
-import Navbar from "./Navbar";
 
 function Skills() {
   return (
@@ -86,6 +87,7 @@ function Skills() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

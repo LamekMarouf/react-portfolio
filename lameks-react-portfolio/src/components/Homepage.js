@@ -1,6 +1,7 @@
 import React from "react";
 import codingAvatar from "../assets/images/codingAvatar.png";
 import Navbar from "./Navbar";
+import Footer from "./Footer"
 
 function Homepage() {
   return ( 
@@ -25,6 +26,7 @@ function Homepage() {
         <img src={codingAvatar} alt="Coding Avatar" id="coding-avatar" />
       </section>
     </section>
+    <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import hackerAvatar from "../assets/images/hackerAvatar.png";
+import Footer from "./Footer"
 
 function About() {
   return (
@@ -42,6 +43,7 @@ function About() {
         </div>
       </div>
     </section>
+    <Footer />
     </>
   );
 }
